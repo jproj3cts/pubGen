@@ -100,8 +100,8 @@ while True:
     elif r == 1:
         blue('\033[1m' + pub2.format(random.choice(animals_list+medieval_jobs_list+medieval_items_list),random.choice(animals_list+medieval_jobs_list)) + "\033[0m")
     elif r == 2:
-        yellow('\033[1m' + pub3.format(random.choice(pub_adjectives_list),random.choice(medieval_items_list+animals_list)) + "\033[0m")
+        yellow('\033[1m' + pub3.format(random.choice(pub_adjectives_list),random.choice(medieval_items_list)) + "\033[0m")
     elif r == 3:
-        green('\033[1m' + pub2.format(random.choice(animals_list+medieval_jobs_list+medieval_items_list),random.choice(medieval_items_list)) + "\033[0m")
+        green('\033[1m' + pub4.format(random.choice(animals_list+medieval_jobs_list+medieval_items_list),random.choice(medieval_items_list)) + "\033[0m")
         
     
